@@ -2,8 +2,11 @@
 name = "radsb"
 version = "0.1.0"
 edition = "2021"
+description = "Application for searching ADS-B meesages from signal received on RTL-SDR"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rtlsdr_mt = "2.1.0"
+clap = "3.0.14"
+itertools = "0.10.3"
